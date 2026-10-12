@@ -73,5 +73,5 @@ resource nsg 'Microsoft.Network/networkSecurityGroups@2025-09-01' = {
        }
 }
 
-
+output webSubnetName string= webSubnetName
 
